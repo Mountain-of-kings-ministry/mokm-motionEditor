@@ -181,3 +181,29 @@
 15091	23685	1779018098037024628	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.o	b276bb8acfc552ec
 1297	24083	1779018098470018194	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
 24083	25633	1779018100020995152	mokmEditor	ad083c8fac3d9e7e
+65	95	1779018922932347463	.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+65	95	1779018922932347463	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+66	674	1779018923506128017	.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+66	674	1779018923506128017	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+676	809	1779018923642357197	.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+676	809	1779018923642357197	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+674	1395	1779018924176364510	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+674	1395	1779018924176364510	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+674	1395	1779018924176364510	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+674	1395	1779018924176364510	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+1397	1687	1779018924525369283	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp.o	382b1aae5765bdac
+1396	15613	1779018938435556327	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
+15614	18130	1779018940935589286	mokmEditor	ad083c8fac3d9e7e
+48	63	1779019572667514731	.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+48	63	1779019572667514731	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+49	405	1779019573003415832	.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+49	405	1779019573003415832	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+406	556	1779019573135515480	.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+406	556	1779019573135515480	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+406	936	1779019573525516102	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+406	936	1779019573525516102	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+406	936	1779019573525516102	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+406	936	1779019573525516102	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+937	1097	1779019573702516384	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp.o	382b1aae5765bdac
+936	10206	1779019582799530494	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
+10206	11673	1779019584257532685	mokmEditor	ad083c8fac3d9e7e

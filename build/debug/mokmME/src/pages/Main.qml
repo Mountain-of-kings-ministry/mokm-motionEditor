@@ -19,114 +19,119 @@ ApplicationWindow {
 
     color: Theme.background
 
-    // === Custom Title Bar ===
-    Rectangle {
-        id: titleBar
-        width: parent.width
-        height: 30
-        color: Theme.secondary
+    // === Menu Bar ===
+    menuBar: MenuBar {
+        id: menuBar
+        background: Rectangle {
+            color: Theme.secondary
+            border.color: Theme.border
 
-        RowLayout {
-            anchors.fill: parent
-            anchors.leftMargin: 8
-            anchors.rightMargin: 4
-            spacing: 2
-
-            Text {
-                text: "MOKM MotionEditor"
-                color: Theme.primary
-                font.pixelSize: 12
-                font.bold: true
-                leftPadding: 4
+            // Window drag area
+            MouseArea {
+                anchors.fill: parent
+                property point clickPos: Qt.point(0, 0)
+                onPressed: { clickPos = Qt.point(mouse.x, mouse.y) }
+                onPositionChanged: {
+                    mainWin.x += mouse.x - clickPos.x
+                    mainWin.y += mouse.y - clickPos.y
+                }
             }
 
-            Rectangle { Layout.preferredWidth: 1; Layout.preferredHeight: 16; color: Theme.border; Layout.margins: 4 }
+            // Window controls at right edge
+            RowLayout {
+                anchors.right: parent.right
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.rightMargin: 4
+                spacing: 2
 
-            // Inline menu items
-            Rectangle {
-                id: fileMenuBtn
-                Layout.preferredHeight: 24; Layout.preferredWidth: 36
-                color: fileMenuBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "File"; color: fileMenuBtnMa.containsMouse ? Theme.primary : Theme.foreground; font.pixelSize: 11 }
-                MouseArea { id: fileMenuBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: fileMenu.popup(fileMenuBtn, 0, fileMenuBtn.height) }
-            }
-            Rectangle {
-                id: editMenuBtn
-                Layout.preferredHeight: 24; Layout.preferredWidth: 34
-                color: editMenuBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "Edit"; color: editMenuBtnMa.containsMouse ? Theme.primary : Theme.foreground; font.pixelSize: 11 }
-                MouseArea { id: editMenuBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: editMenu.popup(editMenuBtn, 0, editMenuBtn.height) }
-            }
-            Rectangle {
-                id: viewMenuBtn
-                Layout.preferredHeight: 24; Layout.preferredWidth: 36
-                color: viewMenuBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "View"; color: viewMenuBtnMa.containsMouse ? Theme.primary : Theme.foreground; font.pixelSize: 11 }
-                MouseArea { id: viewMenuBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: viewMenu.popup(viewMenuBtn, 0, viewMenuBtn.height) }
-            }
-            Rectangle {
-                id: toolsMenuBtn
-                Layout.preferredHeight: 24; Layout.preferredWidth: 44
-                color: toolsMenuBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "Tools"; color: toolsMenuBtnMa.containsMouse ? Theme.primary : Theme.foreground; font.pixelSize: 11 }
-                MouseArea { id: toolsMenuBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: toolsMenu.popup(toolsMenuBtn, 0, toolsMenuBtn.height) }
-            }
-            Rectangle {
-                id: compMenuBtn
-                Layout.preferredHeight: 24; Layout.preferredWidth: 80
-                color: compMenuBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "Composition"; color: compMenuBtnMa.containsMouse ? Theme.primary : Theme.foreground; font.pixelSize: 11 }
-                MouseArea { id: compMenuBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: compositionMenu.popup(compMenuBtn, 0, compMenuBtn.height) }
-            }
-            Rectangle {
-                id: helpMenuBtn
-                Layout.preferredHeight: 24; Layout.preferredWidth: 36
-                color: helpMenuBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "Help"; color: helpMenuBtnMa.containsMouse ? Theme.primary : Theme.foreground; font.pixelSize: 11 }
-                MouseArea { id: helpMenuBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: helpMenu.popup(helpMenuBtn, 0, helpMenuBtn.height) }
-            }
-
-            Item { Layout.fillWidth: true }
-
-            // Window controls
-            Rectangle {
-                Layout.preferredWidth: 36; Layout.preferredHeight: 24
-                color: minBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "─"; color: Theme.foreground; font.pixelSize: 16 }
-                MouseArea { id: minBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: mainWin.showMinimized() }
-            }
-            Rectangle {
-                Layout.preferredWidth: 36; Layout.preferredHeight: 24
-                color: maxBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "□"; color: Theme.foreground; font.pixelSize: 12 }
-                MouseArea { id: maxBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: mainWin.visibility === Window.Maximized ? mainWin.showNormal() : mainWin.showMaximized() }
-            }
-            Rectangle {
-                Layout.preferredWidth: 36; Layout.preferredHeight: 24
-                color: closeBtnMa.containsMouse ? "#e81123" : "transparent"
-                radius: 4
-                Text { anchors.centerIn: parent; text: "✕"; color: Theme.foreground; font.pixelSize: 12 }
-                MouseArea { id: closeBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: Qt.quit() }
+                Rectangle {
+                    Layout.preferredWidth: 36; Layout.preferredHeight: 22
+                    color: minBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
+                    radius: 4
+                    Text { anchors.centerIn: parent; text: "─"; color: Theme.foreground; font.pixelSize: 16 }
+                    MouseArea { id: minBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: mainWin.showMinimized() }
+                }
+                Rectangle {
+                    Layout.preferredWidth: 36; Layout.preferredHeight: 22
+                    color: maxBtnMa.containsMouse ? Theme.secondaryHover : "transparent"
+                    radius: 4
+                    Text { anchors.centerIn: parent; text: "□"; color: Theme.foreground; font.pixelSize: 12 }
+                    MouseArea { id: maxBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: mainWin.visibility === Window.Maximized ? mainWin.showNormal() : mainWin.showMaximized() }
+                }
+                Rectangle {
+                    Layout.preferredWidth: 36; Layout.preferredHeight: 22
+                    color: closeBtnMa.containsMouse ? "#e81123" : "transparent"
+                    radius: 4
+                    Text { anchors.centerIn: parent; text: "✕"; color: Theme.foreground; font.pixelSize: 12 }
+                    MouseArea { id: closeBtnMa; anchors.fill: parent; hoverEnabled: true; onClicked: Qt.quit() }
+                }
             }
         }
 
-        // Window drag
-        MouseArea {
-            anchors.fill: parent
-            property point clickPos: Qt.point(0, 0)
-            onPressed: { clickPos = Qt.point(mouse.x, mouse.y) }
-            onPositionChanged: {
-                mainWin.x += mouse.x - clickPos.x
-                mainWin.y += mouse.y - clickPos.y
-            }
+        Menu {
+            title: "File"
+            Action { text: "New Project"; icon.source: "qrc:/icons/outline/file-plus.svg" }
+            Action { text: "Open Project..."; icon.source: "qrc:/icons/outline/folder-open.svg" }
+            Action { text: "Save"; icon.source: "qrc:/icons/outline/device-floppy.svg"; shortcut: "Ctrl+S" }
+            Action { text: "Save As..."; shortcut: "Ctrl+Shift+S" }
+            MenuSeparator { }
+            Action { text: "Import Media..."; icon.source: "qrc:/icons/outline/file-import.svg"; shortcut: "Ctrl+I" }
+            Action { text: "Export..."; icon.source: "qrc:/icons/outline/file-export.svg"; shortcut: "Ctrl+E" }
+            MenuSeparator { }
+            Action { text: "Exit"; shortcut: "Ctrl+Q"; onTriggered: Qt.quit() }
+        }
+
+        Menu {
+            title: "Edit"
+            Action { text: "Undo"; shortcut: "Ctrl+Z" }
+            Action { text: "Redo"; shortcut: "Ctrl+Shift+Z" }
+            MenuSeparator { }
+            Action { text: "Cut"; shortcut: "Ctrl+X" }
+            Action { text: "Copy"; shortcut: "Ctrl+C" }
+            Action { text: "Paste"; shortcut: "Ctrl+V" }
+            Action { text: "Duplicate"; shortcut: "Ctrl+D" }
+            Action { text: "Delete"; shortcut: "Del" }
+            MenuSeparator { }
+            Action { text: "Select All"; shortcut: "Ctrl+A" }
+        }
+
+        Menu {
+            title: "View"
+            Action { text: "Toggle Fullscreen"; shortcut: "F11" }
+            MenuSeparator { }
+            Action { text: "Show Timeline"; checkable: true; checked: true }
+            Action { text: "Show Node Editor"; checkable: true }
+            Action { text: "Show Graph Editor"; checkable: true }
+            Action { text: "Show Audio Editor"; checkable: true }
+            MenuSeparator { }
+            Action { text: "Reset Layout" }
+        }
+
+        Menu {
+            title: "Tools"
+            Action { text: "Select Tool"; shortcut: "V"; icon.source: "qrc:/icons/outline/hand-click.svg" }
+            Action { text: "Move Tool"; shortcut: "M" }
+            Action { text: "Blade Tool"; shortcut: "B" }
+            Action { text: "Snap Toggle"; shortcut: "S" }
+            MenuSeparator { }
+            Action { text: "Graph Editor" }
+            Action { text: "Node Editor" }
+        }
+
+        Menu {
+            title: "Composition"
+            Action { text: "New Composition"; shortcut: "Ctrl+N" }
+            Action { text: "Composition Settings"; shortcut: "Ctrl+Shift+C" }
+            MenuSeparator { }
+            Action { text: "Add Video Track" }
+            Action { text: "Add Audio Track" }
+        }
+
+        Menu {
+            title: "Help"
+            Action { text: "About MOKM MotionEditor" }
+            Action { text: "Documentation" }
+            Action { text: "Report Issue" }
         }
     }
 
@@ -147,45 +152,6 @@ ApplicationWindow {
                 anchors.rightMargin: 6
                 spacing: 2
 
-                // Repeater {
-                //     model: [
-                //         { icon: "cursor-default", tooltip: "Select (V)" },
-                //         { icon: "arrows-move", tooltip: "Move (M)" },
-                //         { icon: "scissors", tooltip: "Blade (B)" },
-                //         { icon: "hand-grab", tooltip: "Hand" },
-                //         { icon: "zoom-in", tooltip: "Zoom" }
-                //     ]
-                //     delegate: Rectangle {
-                //         Layout.preferredWidth: 32
-                //         Layout.preferredHeight: 32
-                //         color: toolMouse.containsMouse ? Theme.secondaryHover : "transparent"
-                //         radius: 4
-
-                //         Image {
-                //             anchors.centerIn: parent
-                //             source: "qrc:/icons/outline/" + modelData.icon + ".svg"
-                //             sourceSize.width: 18
-                //             sourceSize.height: 18
-                //         }
-
-                //         ToolTip {
-                //             visible: toolMouse.containsMouse
-                //             text: modelData.tooltip
-                //             delay: 600
-                //             background: Rectangle { color: Theme.secondary; border.color: Theme.border; radius: 4 }
-                //             contentItem: Text { text: modelData.tooltip; color: Theme.foreground; font.pixelSize: 11 }
-                //         }
-
-                //         MouseArea {
-                //             id: toolMouse
-                //             anchors.fill: parent
-                //             hoverEnabled: true
-                //             cursorShape: Qt.PointingHandCursor
-                //             onClicked: { /* set active tool */ }
-                //         }
-                //     }
-                // }
-                //
                 Repeater {
                     model: [
                         { icon: "hand-click", tooltip: "Select (V)" },
@@ -433,7 +399,7 @@ ApplicationWindow {
                     id: viewport
                     SplitView.fillWidth: true
                     SplitView.fillHeight: true
-                    color: "#0a0a1a"
+                    color: Theme.background
                     border.color: Theme.border
 
                     ColumnLayout {
@@ -494,14 +460,14 @@ ApplicationWindow {
                         Rectangle {
                             Layout.fillWidth: true
                             Layout.fillHeight: true
-                            color: "#0a0a1a"
+                            color: Theme.background
                             clip: true
 
                             Rectangle {
                                 anchors.centerIn: parent
                                 width: parent ? parent.width * 0.7 : 0
                                 height: parent ? parent.width * 0.7 * (9/16) : 0
-                                color: "#111122"
+                                color: Theme.input
                                 border.color: Theme.muted
                                 border.width: 1
                                 radius: 2
@@ -728,71 +694,6 @@ ApplicationWindow {
         }
     }
 
-    Menu {
-        id: fileMenu
-        Action { text: "New Project"; icon.source: "qrc:/icons/outline/file-plus.svg" }
-        Action { text: "Open Project..."; icon.source: "qrc:/icons/outline/folder-open.svg" }
-        Action { text: "Save"; icon.source: "qrc:/icons/outline/device-floppy.svg"; shortcut: "Ctrl+S" }
-        Action { text: "Save As..."; shortcut: "Ctrl+Shift+S" }
-        MenuSeparator { }
-        Action { text: "Import Media..."; icon.source: "qrc:/icons/outline/file-import.svg"; shortcut: "Ctrl+I" }
-        Action { text: "Export..."; icon.source: "qrc:/icons/outline/file-export.svg"; shortcut: "Ctrl+E" }
-        MenuSeparator { }
-        Action { text: "Exit"; shortcut: "Ctrl+Q"; onTriggered: Qt.quit() }
-    }
-
-    Menu {
-        id: editMenu
-        Action { text: "Undo"; shortcut: "Ctrl+Z" }
-        Action { text: "Redo"; shortcut: "Ctrl+Shift+Z" }
-        MenuSeparator { }
-        Action { text: "Cut"; shortcut: "Ctrl+X" }
-        Action { text: "Copy"; shortcut: "Ctrl+C" }
-        Action { text: "Paste"; shortcut: "Ctrl+V" }
-        Action { text: "Duplicate"; shortcut: "Ctrl+D" }
-        Action { text: "Delete"; shortcut: "Del" }
-        MenuSeparator { }
-        Action { text: "Select All"; shortcut: "Ctrl+A" }
-    }
-
-    Menu {
-        id: viewMenu
-        Action { text: "Toggle Fullscreen"; shortcut: "F11" }
-        MenuSeparator { }
-        Action { text: "Show Timeline"; checkable: true; checked: true }
-        Action { text: "Show Node Editor"; checkable: true }
-        Action { text: "Show Graph Editor"; checkable: true }
-        Action { text: "Show Audio Editor"; checkable: true }
-        MenuSeparator { }
-        Action { text: "Reset Layout" }
-    }
-
-    Menu {
-        id: toolsMenu
-        Action { text: "Select Tool"; shortcut: "V"; icon.source: "qrc:/icons/outline/hand-click.svg" }
-        Action { text: "Move Tool"; shortcut: "M" }
-        Action { text: "Blade Tool"; shortcut: "B" }
-        Action { text: "Snap Toggle"; shortcut: "S" }
-        MenuSeparator { }
-        Action { text: "Graph Editor" }
-        Action { text: "Node Editor" }
-    }
-
-    Menu {
-        id: compositionMenu
-        Action { text: "New Composition"; shortcut: "Ctrl+N" }
-        Action { text: "Composition Settings"; shortcut: "Ctrl+Shift+C" }
-        MenuSeparator { }
-        Action { text: "Add Video Track" }
-        Action { text: "Add Audio Track" }
-    }
-
-    Menu {
-        id: helpMenu
-        Action { text: "About MOKM MotionEditor" }
-        Action { text: "Documentation" }
-        Action { text: "Report Issue" }
-    }
 
     FileDialog {
         id: importDialog
