@@ -1,0 +1,183 @@
+# ninja log v5
+1154	1728	1779017183716490785	.rcc/qmlcache/mokmEditor_src/pages/components/StyledTextField_qml.cpp.aotstats	fef30084bbcac357
+493	1016	1779017183032506961	mokmEditor_autogen/timestamp	43b9fe2bca478be5
+1122	1677	1779014518959413984	.qt/rcc/qrc_mokmEditor_raw_res_0.cpp	3db4207a199a2791
+493	1016	1779017183032506961	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/mocs_compilation.cpp	43b9fe2bca478be5
+2209	9327	1779017191351310853	CMakeFiles/mokmEditor.dir/src/providers/projectsettings.cpp.o	202302690daf2045
+36749	36819	1779017218841672667	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0_extra_qmldirs.cpp.o	98df1d7650d5058d
+1122	1677	1779014518959413984	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_res_0.cpp	3db4207a199a2791
+1150	1464	1779017183461496816	.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp	fdf811b53afd98de
+1729	2181	1779017184187479650	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.aotstats	e09829ca1724580d
+9328	18396	1779017200415098781	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Theme_qml.cpp.o	f9d37f3763a2cf0f
+1149	1496	1779017183511782334	.rcc/qmlcache/mokmEditor_src/pages/Theme_qml.cpp	e11147e408d4b4bc
+9807	18914	1779017200930086780	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/SplashScreen_qml.cpp.o	356583ceda4e8064
+26110	37849	1779017219865649181	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.o	b27ba1eacd2a7bfe
+1017	1024	1779017183051152162	meta_types/mokmEditor_json_file_list.txt.timestamp	f14558ad454dfb4a
+1024	1032	1779017183051152162	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/meta_types/qt6mokmeditor_metatypes.json	da64a645830eb8f1
+1149	1496	1779017183511782334	.rcc/qmlcache/mokmEditor_src/pages/Theme_qml.cpp.aotstats	e11147e408d4b4bc
+360	397	1779016851695026506	.rcc/qmlcache/mokmEditor_qmlcache_loader.cpp	f2e53877e47b8612
+1149	1641	1779017183630492819	.rcc/qmlcache/mokmEditor_src/pages/SplashScreen_qml.cpp.aotstats	730bf7d737e55b4c
+30	1644	1779018070133440657	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/cmake_install.cmake	8b145ef58a02d66
+1017	1024	1779017183051152162	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/meta_types/mokmEditor_json_file_list.txt	f14558ad454dfb4a
+67	177	1779014517508485512	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/.qmlls.build.ini	7ef91866ec50bf82
+310	400	1779017525882377955	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+1017	1024	1779017183051152162	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/meta_types/mokmEditor_json_file_list.txt.timestamp	f14558ad454dfb4a
+1126	4671	1779014521974265950	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/F4FAE6NH3Q/qrc_resources.cpp	83ce284104f5ab89
+43	58	1779017525541211037	.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+493	1016	1779017183032506961	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/timestamp	43b9fe2bca478be5
+30	1644	1779018070133440657	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/providers/cmake_install.cmake	8b145ef58a02d66
+1150	2034	1779017184021483572	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp	8be2ad89bff4ffe2
+1154	1728	1779017183716490785	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledTextField_qml.cpp	fef30084bbcac357
+359	370	1779016851680770864	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_qmake_mokmME.cpp	cea1ad1dea37bd2f
+1149	1496	1779017183511782334	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Theme_qml.cpp.aotstats	e11147e408d4b4bc
+1149	1496	1779017183511782334	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Theme_qml.cpp	e11147e408d4b4bc
+295	662	1779017318812469060	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+1150	1464	1779017183461496816	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp	fdf811b53afd98de
+1032	1148	1779017183153866317	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/mokmEditor.qmltypes	afacbb89f66a3c9c
+1150	2034	1779017184021483572	.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp	8be2ad89bff4ffe2
+310	400	1779017525882377955	.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+1032	1148	1779017183153866317	mokmME/mokmEditor.qmltypes	afacbb89f66a3c9c
+1149	1641	1779017183630492819	.rcc/qmlcache/mokmEditor_src/pages/SplashScreen_qml.cpp	730bf7d737e55b4c
+1496	1799	1779017183783239209	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledPanel_qml.cpp	2fea23e46f0cdf5d
+1150	2034	1779017184021483572	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp.aotstats	8be2ad89bff4ffe2
+30	1644	1779018070134440642	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/pages/components/cmake_install.cmake	8b145ef58a02d66
+44	308	1779017525789979406	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+1464	1866	1779017183863487309	.rcc/qmlcache/mokmEditor_src/pages/components/StyledComboBox_qml.cpp	4755aa58e55afa52
+1150	2034	1779017184021483572	.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp.aotstats	8be2ad89bff4ffe2
+30	1644	1779018070132440672	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/cmake_install.cmake	8b145ef58a02d66
+1154	1728	1779017183716490785	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledTextField_qml.cpp.aotstats	fef30084bbcac357
+1032	1148	1779017183153866317	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmeditor_qmltyperegistrations.cpp	afacbb89f66a3c9c
+44	308	1779017525789979406	.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+1150	1464	1779017183461496816	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp.aotstats	fdf811b53afd98de
+1150	1464	1779017183461496816	.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp.aotstats	fdf811b53afd98de
+2208	13138	1779017195149221788	CMakeFiles/mokmEditor.dir/main.cpp.o	340d24fa8821d4dd
+30	1644	1779018070133440657	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/functions/cmake_install.cmake	8b145ef58a02d66
+1149	1641	1779017183630492819	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/SplashScreen_qml.cpp	730bf7d737e55b4c
+30	1644	1779018070135440627	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/resources/cmake_install.cmake	8b145ef58a02d66
+1149	1641	1779017183630492819	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/SplashScreen_qml.cpp.aotstats	730bf7d737e55b4c
+1641	1950	1779017183946485346	.rcc/qmlcache/mokmEditor_src/pages/components/ProjectCard_qml.cpp	43a5287490631ccb
+30	1644	1779018070148440433	build.ninja	8b145ef58a02d66
+1464	1866	1779017183863487309	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledComboBox_qml.cpp.aotstats	4755aa58e55afa52
+493	1016	1779017183032506961	mokmEditor_autogen/mocs_compilation.cpp	43b9fe2bca478be5
+1496	1799	1779017183783239209	.rcc/qmlcache/mokmEditor_src/pages/components/StyledPanel_qml.cpp.aotstats	2fea23e46f0cdf5d
+1729	2181	1779017184187479650	.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp	e09829ca1724580d
+309	448	1779017525916373498	.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp	6106e47c3a06fe2a
+1866	2144	1779017184157305395	.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp.aotstats	c5df8f14e191aa00
+2212	9807	1779017191829299627	CMakeFiles/mokmEditor.dir/src/functions/some_class/someclass.cpp.o	6bb709f5d1cd7f3f
+449	580	1779017526063374606	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp.o	382b1aae5765bdac
+10088	24411	1779017206412959349	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp.o	72243f87a3dec321
+64	84	1779014517417490003	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_res.txt	7cc8e71d46a114aa
+295	662	1779017318812469060	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+13138	26110	1779017208127919611	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp.o	206a4b4f96227308
+67	177	1779014517508485512	.qt/.qmlls.build.ini	7ef91866ec50bf82
+1154	1728	1779017183716490785	.rcc/qmlcache/mokmEditor_src/pages/components/StyledTextField_qml.cpp	fef30084bbcac357
+27783	39287	1779017221307616143	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp.o	8f5a7475783842c3
+64	84	1779014517417490003	.qt/mokmEditor_res.txt	7cc8e71d46a114aa
+24411	36749	1779017218762674480	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/ProjectCard_qml.cpp.o	7b218e26e8682cf0
+360	397	1779016851695026506	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_qmlcache_loader.cpp	f2e53877e47b8612
+1464	1866	1779017183863487309	.rcc/qmlcache/mokmEditor_src/pages/components/StyledComboBox_qml.cpp.aotstats	4755aa58e55afa52
+1126	4671	1779014521974265950	mokmEditor_autogen/F4FAE6NH3Q/qrc_resources.cpp	83ce284104f5ab89
+1800	2060	1779017184067482485	.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp	2cc1c62beefd8656
+359	370	1779016851680770864	.qt/rcc/qrc_qmake_mokmME.cpp	cea1ad1dea37bd2f
+364	381	1779016851693371247	.qt/rcc/qrc_mokmEditor_raw_qml_0_extra_qmldirs.cpp	33001fb5044b9bfd
+1876	2207	1779017184222478823	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.aotstats	e59b39018b940a32
+1024	1032	1779017183051152162	meta_types/qt6mokmeditor_metatypes.json.gen	da64a645830eb8f1
+26200	36366	1779017218372683431	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp.o	48182efb0e0df5ac
+2358	13702	1779017195726208284	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_qmlcache_loader.cpp.o	f9db6977c3704d35
+1464	1866	1779017183863487309	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledComboBox_qml.cpp	4755aa58e55afa52
+1024	1032	1779017183051152162	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/meta_types/qt6mokmeditor_metatypes.json.gen	da64a645830eb8f1
+309	448	1779017525916373498	.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp.aotstats	6106e47c3a06fe2a
+309	448	1779017525916373498	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp.aotstats	6106e47c3a06fe2a
+295	662	1779017318812469060	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+1729	2181	1779017184187479650	.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.aotstats	e09829ca1724580d
+1032	1148	1779017183153866317	mokmeditor_qmltyperegistrations.cpp	afacbb89f66a3c9c
+1024	1032	1779017183051152162	meta_types/qt6mokmeditor_metatypes.json	da64a645830eb8f1
+1017	1024	1779017183051152162	meta_types/mokmEditor_json_file_list.txt	f14558ad454dfb4a
+18396	27783	1779017209799880926	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/StyledComboBox_qml.cpp.o	3008a33c6aca1112
+1641	1950	1779017183946485346	.rcc/qmlcache/mokmEditor_src/pages/components/ProjectCard_qml.cpp.aotstats	43a5287490631ccb
+1866	2144	1779017184157305395	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp.aotstats	c5df8f14e191aa00
+36820	48625	1779017230650403044	CMakeFiles/mokmEditor.dir/mokmEditor_autogen/F4FAE6NH3Q/qrc_resources.cpp.o	dd9cd137de83e8c7
+43	58	1779017525541211037	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+13703	26198	1779017208217917527	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/StyledTextField_qml.cpp.o	aabacbb83c721fb3
+1641	1950	1779017183946485346	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/ProjectCard_qml.cpp.aotstats	43a5287490631ccb
+30	1644	1779018070134440642	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/pages/cmake_install.cmake	8b145ef58a02d66
+1800	2060	1779017184067482485	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp.aotstats	2cc1c62beefd8656
+364	381	1779016851693371247	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_qml_0_extra_qmldirs.cpp	33001fb5044b9bfd
+1800	2060	1779017184067482485	.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp.aotstats	2cc1c62beefd8656
+3851	4894	1779017530367295094	mokmEditor	ad083c8fac3d9e7e
+1876	2207	1779017184222478823	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp	e59b39018b940a32
+1729	2181	1779017184187479650	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp	e09829ca1724580d
+2208	8830	1779017190853322552	CMakeFiles/mokmEditor.dir/mokmEditor_autogen/mocs_compilation.cpp.o	231bb6f0873d5e1
+1496	1799	1779017183783239209	.rcc/qmlcache/mokmEditor_src/pages/components/StyledPanel_qml.cpp	2fea23e46f0cdf5d
+309	448	1779017525916373498	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp	6106e47c3a06fe2a
+29713	40537	1779017222555587582	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.o	b276bb8acfc552ec
+1876	2207	1779017184222478823	.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp	e59b39018b940a32
+2209	10088	1779017192104293171	CMakeFiles/mokmEditor.dir/mokmeditor_qmltyperegistrations.cpp.o	150a747754e5b844
+1496	1799	1779017183783239209	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledPanel_qml.cpp.aotstats	2fea23e46f0cdf5d
+1641	1950	1779017183946485346	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/ProjectCard_qml.cpp	43a5287490631ccb
+36745	37132	1779017219151665555	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_res_0.cpp.o	2c70168e49976a1a
+1866	2144	1779017184157305395	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp	c5df8f14e191aa00
+1866	2144	1779017184157305395	.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp	c5df8f14e191aa00
+18919	31369	1779017213379798281	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/StyledPanel_qml.cpp.o	264e363d5c9d83da
+295	662	1779017318812469060	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+1876	2207	1779017184222478823	.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.aotstats	e59b39018b940a32
+1800	2060	1779017184067482485	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp	2cc1c62beefd8656
+448	3851	1779017529331314215	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp.o	4d1c39165c0f2198
+663	6050	1779017324209354895	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
+2212	2357	1779017184381475066	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_qmake_mokmME.cpp.o	efd14d4f5908507f
+45	57	1779018074467375858	.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+45	57	1779018074467375858	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+46	360	1779018074768371360	.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+46	360	1779018074768371360	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+360	393	1779018069772709717	mokmEditor_autogen/timestamp	43b9fe2bca478be5
+360	393	1779018069772709717	mokmEditor_autogen/mocs_compilation.cpp	43b9fe2bca478be5
+360	393	1779018069772709717	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/timestamp	43b9fe2bca478be5
+360	393	1779018069772709717	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/mocs_compilation.cpp	43b9fe2bca478be5
+398	407	1779018074791371016	meta_types/mokmEditor_json_file_list.txt	f14558ad454dfb4a
+398	407	1779018074791371016	meta_types/mokmEditor_json_file_list.txt.timestamp	f14558ad454dfb4a
+398	407	1779018074791371016	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/meta_types/mokmEditor_json_file_list.txt	f14558ad454dfb4a
+398	407	1779018074791371016	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/meta_types/mokmEditor_json_file_list.txt.timestamp	f14558ad454dfb4a
+398	525	1779018074935368865	.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+398	525	1779018074935368865	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+410	984	1779018075341362799	.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp	e09829ca1724580d
+410	984	1779018075341362799	.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.aotstats	e09829ca1724580d
+410	984	1779018075341362799	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp	e09829ca1724580d
+410	984	1779018075341362799	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.aotstats	e09829ca1724580d
+410	985	1779018075338362844	.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp	2cc1c62beefd8656
+410	985	1779018075338362844	.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp.aotstats	2cc1c62beefd8656
+410	985	1779018075338362844	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp	2cc1c62beefd8656
+410	985	1779018075338362844	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp.aotstats	2cc1c62beefd8656
+408	993	1779018075342916046	.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp	fdf811b53afd98de
+408	993	1779018075342916046	.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp.aotstats	fdf811b53afd98de
+408	993	1779018075342916046	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp	fdf811b53afd98de
+408	993	1779018075342916046	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp.aotstats	fdf811b53afd98de
+525	1095	1779018075475164993	.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp	c5df8f14e191aa00
+525	1095	1779018075475164993	.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp.aotstats	c5df8f14e191aa00
+525	1095	1779018075475164993	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp	c5df8f14e191aa00
+525	1095	1779018075475164993	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp.aotstats	c5df8f14e191aa00
+407	1245	1779018075620358631	.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp	8be2ad89bff4ffe2
+407	1245	1779018075620358631	.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp.aotstats	8be2ad89bff4ffe2
+407	1245	1779018075620358631	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp	8be2ad89bff4ffe2
+407	1245	1779018075620358631	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp.aotstats	8be2ad89bff4ffe2
+407	1246	1779018075610358780	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+407	1246	1779018075610358780	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+407	1246	1779018075610358780	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+407	1246	1779018075610358780	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+986	1267	1779018075664313558	.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp	6106e47c3a06fe2a
+986	1267	1779018075664313558	.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp.aotstats	6106e47c3a06fe2a
+986	1267	1779018075664313558	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp	6106e47c3a06fe2a
+986	1267	1779018075664313558	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp.aotstats	6106e47c3a06fe2a
+985	1297	1779018075694336711	.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp	e59b39018b940a32
+985	1297	1779018075694336711	.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.aotstats	e59b39018b940a32
+985	1297	1779018075694336711	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp	e59b39018b940a32
+985	1297	1779018075694336711	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.aotstats	e59b39018b940a32
+1299	15089	1779018089491151751	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.o	b27ba1eacd2a7bfe
+1298	15354	1779018089753147850	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/StyledButton_qml.cpp.o	206a4b4f96227308
+1298	15758	1779018090149141954	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/ProjectSetup_qml.cpp.o	72243f87a3dec321
+15758	16062	1779018090468137205	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp.o	382b1aae5765bdac
+1301	16865	1779018091262197430	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/GraphEditorTab_qml.cpp.o	8f5a7475783842c3
+1300	17350	1779018091753118078	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/NodeEditorTab_qml.cpp.o	48182efb0e0df5ac
+15354	22840	1779018097221036756	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/components/fragments/ThemedIcon_qml.cpp.o	4d1c39165c0f2198
+15091	23685	1779018098037024628	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/AudioEditorTab_qml.cpp.o	b276bb8acfc552ec
+1297	24083	1779018098470018194	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
+24083	25633	1779018100020995152	mokmEditor	ad083c8fac3d9e7e

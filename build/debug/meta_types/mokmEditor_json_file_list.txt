@@ -1,0 +1,2 @@
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/include/../MIZVZHZGTN/moc_projectsettings.cpp.json
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_autogen/include/../W35NJKCNJP/moc_someclass.cpp.json

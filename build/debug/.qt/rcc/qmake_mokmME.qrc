@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/mokmME">
+    <file alias="qmldir">/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/qmldir</file>
+  </qresource>
+</RCC>
+

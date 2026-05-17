@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="/qt/qml/mokmME/">
+    <file alias="src/pages/Main.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml</file>
+    <file alias="src/pages/Theme.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Theme.qml</file>
+    <file alias="src/pages/SplashScreen.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/SplashScreen.qml</file>
+    <file alias="src/pages/ProjectSetup.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/ProjectSetup.qml</file>
+    <file alias="src/pages/components/StyledButton.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledButton.qml</file>
+    <file alias="src/pages/components/StyledTextField.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledTextField.qml</file>
+    <file alias="src/pages/components/StyledComboBox.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledComboBox.qml</file>
+    <file alias="src/pages/components/StyledPanel.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledPanel.qml</file>
+    <file alias="src/pages/components/ProjectCard.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/ProjectCard.qml</file>
+    <file alias="src/pages/tabs/TimelineTab.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/TimelineTab.qml</file>
+    <file alias="src/pages/tabs/NodeEditorTab.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/NodeEditorTab.qml</file>
+    <file alias="src/pages/tabs/GraphEditorTab.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/GraphEditorTab.qml</file>
+    <file alias="src/pages/tabs/AudioEditorTab.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/AudioEditorTab.qml</file>
+    <file alias="src/pages/components/fragments/ThemedIcon.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ThemedIcon.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,15 @@
+[submodule "third_parties/Qt-Node-editor"]
+	path = third_parties/Qt-Node-editor
+	url = https://github.com/Mountain-of-kings-ministry/Qt-Node-editor.git
+[submodule "third_parties/thorvg"]
+	path = third_parties/thorvg
+	url = https://github.com/thorvg/thorvg.git
+[submodule "third_parties/quickjs"]
+	path = third_parties/quickjs
+	url = https://github.com/quickjs-ng/quickjs.git
+[submodule "third_parties/OpenTimelineIO"]
+	path = third_parties/OpenTimelineIO
+	url = https://github.com/AcademySoftwareFoundation/OpenTimelineIO.git
+[submodule "third_parties/dawmodule"]
+	path = third_parties/dawmodule
+	url = https://github.com/mernking/mokm-daw-module

@@ -1,1 +1,0 @@
-/home/david/Documents/projects/software/Template_QT/build/apptemplate_autogen/include/../W35NJKCNJP/moc_someclass.cpp.json

@@ -1,0 +1,19 @@
+module mokmME
+typeinfo mokmEditor.qmltypes
+prefer :/qt/qml/mokmME/
+Main 254.0 src/pages/Main.qml
+singleton Theme 254.0 src/pages/Theme.qml
+SplashScreen 254.0 src/pages/SplashScreen.qml
+ProjectSetup 254.0 src/pages/ProjectSetup.qml
+StyledButton 254.0 src/pages/components/StyledButton.qml
+StyledTextField 254.0 src/pages/components/StyledTextField.qml
+StyledComboBox 254.0 src/pages/components/StyledComboBox.qml
+StyledPanel 254.0 src/pages/components/StyledPanel.qml
+ProjectCard 254.0 src/pages/components/ProjectCard.qml
+TimelineTab 254.0 src/pages/tabs/TimelineTab.qml
+NodeEditorTab 254.0 src/pages/tabs/NodeEditorTab.qml
+GraphEditorTab 254.0 src/pages/tabs/GraphEditorTab.qml
+AudioEditorTab 254.0 src/pages/tabs/AudioEditorTab.qml
+ThemedIcon 254.0 src/pages/components/fragments/ThemedIcon.qml
+depends QtQuick
+

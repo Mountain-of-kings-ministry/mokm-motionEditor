@@ -1,8 +1,0 @@
-module template
-typeinfo apptemplate.qmltypes
-prefer :/qt/qml/template/
-Main 254.0 src/pages/Main.qml
-singleton Theme 254.0 src/pages/Theme.qml
-SplashScreen 254.0 src/pages/SplashScreen.qml
-depends QtQuick
-

@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/cmake_install.cmake",
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/cmake_install.cmake",
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/functions/cmake_install.cmake",
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/providers/cmake_install.cmake",
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/pages/cmake_install.cmake",
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/pages/components/cmake_install.cmake",
+		"/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/src/resources/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

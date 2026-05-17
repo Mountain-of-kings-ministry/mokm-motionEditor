@@ -1,0 +1,595 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ProjectSettings",
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "lineNumber": 10,
+                        "name": "projectName",
+                        "notify": "projectNameChanged",
+                        "override": false,
+                        "read": "projectName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setProjectName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "lineNumber": 11,
+                        "name": "width",
+                        "notify": "widthChanged",
+                        "override": false,
+                        "read": "width",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setWidth"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 2,
+                        "lineNumber": 12,
+                        "name": "height",
+                        "notify": "heightChanged",
+                        "override": false,
+                        "read": "height",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setHeight"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "lineNumber": 13,
+                        "name": "frameRate",
+                        "notify": "frameRateChanged",
+                        "override": false,
+                        "read": "frameRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setFrameRate"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 4,
+                        "lineNumber": 14,
+                        "name": "pixelAspectRatio",
+                        "notify": "pixelAspectRatioChanged",
+                        "override": false,
+                        "read": "pixelAspectRatio",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setPixelAspectRatio"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 5,
+                        "lineNumber": 15,
+                        "name": "duration",
+                        "notify": "durationChanged",
+                        "override": false,
+                        "read": "duration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setDuration"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 6,
+                        "lineNumber": 16,
+                        "name": "audioSampleRate",
+                        "notify": "audioSampleRateChanged",
+                        "override": false,
+                        "read": "audioSampleRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setAudioSampleRate"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 7,
+                        "lineNumber": 17,
+                        "name": "colorSpace",
+                        "notify": "colorSpaceChanged",
+                        "override": false,
+                        "read": "colorSpace",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setColorSpace"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 8,
+                        "lineNumber": 18,
+                        "name": "bitDepth",
+                        "notify": "bitDepthChanged",
+                        "override": false,
+                        "read": "bitDepth",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setBitDepth"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 9,
+                        "lineNumber": 19,
+                        "name": "proxyResolution",
+                        "notify": "proxyResolutionChanged",
+                        "override": false,
+                        "read": "proxyResolution",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setProxyResolution"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 10,
+                        "lineNumber": 20,
+                        "name": "enable3D",
+                        "notify": "enable3DChanged",
+                        "override": false,
+                        "read": "enable3D",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setEnable3D"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 11,
+                        "lineNumber": 21,
+                        "name": "renderer",
+                        "notify": "rendererChanged",
+                        "override": false,
+                        "read": "renderer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setRenderer"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 12,
+                        "lineNumber": 22,
+                        "name": "vectorEngine",
+                        "notify": "vectorEngineChanged",
+                        "override": false,
+                        "read": "vectorEngine",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setVectorEngine"
+                    }
+                ],
+                "qualifiedClassName": "ProjectSettings",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 57,
+                        "name": "projectNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 58,
+                        "name": "widthChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 59,
+                        "name": "heightChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 60,
+                        "name": "frameRateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 61,
+                        "name": "pixelAspectRatioChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 62,
+                        "name": "durationChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 63,
+                        "name": "audioSampleRateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 64,
+                        "name": "colorSpaceChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 65,
+                        "name": "bitDepthChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 66,
+                        "name": "proxyResolutionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 67,
+                        "name": "enable3DChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "lineNumber": 68,
+                        "name": "rendererChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "lineNumber": 69,
+                        "name": "vectorEngineChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 42,
+                        "name": "setProjectName",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "w",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 43,
+                        "name": "setWidth",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "h",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 15,
+                        "lineNumber": 44,
+                        "name": "setHeight",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fps",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 45,
+                        "name": "setFrameRate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "par",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 17,
+                        "lineNumber": 46,
+                        "name": "setPixelAspectRatio",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "secs",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 18,
+                        "lineNumber": 47,
+                        "name": "setDuration",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rate",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 19,
+                        "lineNumber": 48,
+                        "name": "setAudioSampleRate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cs",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 49,
+                        "name": "setColorSpace",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "depth",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 21,
+                        "lineNumber": 50,
+                        "name": "setBitDepth",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "px",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 22,
+                        "lineNumber": 51,
+                        "name": "setProxyResolution",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "enable",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 23,
+                        "lineNumber": 52,
+                        "name": "setEnable3D",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "r",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 24,
+                        "lineNumber": 53,
+                        "name": "setRenderer",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "ve",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 25,
+                        "lineNumber": 54,
+                        "name": "setVectorEngine",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "projectsettings.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "someClass",
+                "lineNumber": 6,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "lineNumber": 9,
+                        "name": "manager",
+                        "notify": "managerChanged",
+                        "override": false,
+                        "read": "manager",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setManager"
+                    }
+                ],
+                "qualifiedClassName": "someClass",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 27,
+                        "name": "managerChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 20,
+                        "name": "logToConsole",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 21,
+                        "name": "getManagerState",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 23,
+                        "name": "setManager",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "someclass.h",
+        "outputRevision": 69
+    }
+]

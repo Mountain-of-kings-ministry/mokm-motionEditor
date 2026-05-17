@@ -3,6 +3,7 @@
 #include <QQmlContext>
 
 #include "someclass.h"
+#include "projectsettings.h"
 
 int main(int argc, char *argv[])
 {
@@ -10,7 +11,11 @@ int main(int argc, char *argv[])
 
     qmlRegisterType<someClass>("kingClass", 1, 0, "SomeClass");
 
+    ProjectSettings projectSettings;
+
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextProperty("ProjectSettings", &projectSettings);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
@@ -18,7 +23,7 @@ int main(int argc, char *argv[])
         []()
         { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("template", "SplashScreen");
+    engine.loadFromModule("mokmME", "SplashScreen");
 
     return QCoreApplication::exec();
 }

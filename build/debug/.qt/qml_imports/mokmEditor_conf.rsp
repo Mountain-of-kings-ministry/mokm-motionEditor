@@ -1,0 +1,16 @@
+-rootPath
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor
+-cmake-output
+-output-file
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/qml_imports/mokmEditor_conf.cmake
+-importPath
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug
+-importPath
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME
+-importPath
+/home/david/Qt/6.11.0/gcc_64/qml
+-qrcFiles
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qmake_mokmME.qrc
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/mokmEditor_raw_qml_0.qrc
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/mokmEditor_raw_res_0.qrc
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/mokmEditor_raw_qml_0_extra_qmldirs.qrc

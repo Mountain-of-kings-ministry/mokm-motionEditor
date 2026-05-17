@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/template/">
-    <file alias="src/pages/Main.qml">/home/david/Documents/projects/software/Template_QT/src/pages/Main.qml</file>
-    <file alias="src/pages/Theme.qml">/home/david/Documents/projects/software/Template_QT/src/pages/Theme.qml</file>
-    <file alias="src/pages/SplashScreen.qml">/home/david/Documents/projects/software/Template_QT/src/pages/SplashScreen.qml</file>
-  </qresource>
-</RCC>
-

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/mokmME/">
+    <file alias="src/resources/resources.qrc">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/resources/resources.qrc</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,31 @@
+--bare
+-I
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug
+-I
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME
+-I
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug
+-I
+/home/david/Qt/6.11.0/gcc_64/qml
+--resource
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qmake_mokmME.qrc
+--resource
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/mokmEditor_raw_qml_0.qrc
+--resource
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/mokmEditor_raw_res_0.qrc
+--resource
+/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/mokmEditor_raw_qml_0_extra_qmldirs.qrc
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Theme.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/SplashScreen.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/ProjectSetup.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledButton.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledTextField.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledComboBox.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/StyledPanel.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/ProjectCard.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/TimelineTab.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/NodeEditorTab.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/GraphEditorTab.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/AudioEditorTab.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ThemedIcon.qml
