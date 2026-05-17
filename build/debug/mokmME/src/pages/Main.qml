@@ -405,24 +405,12 @@ ApplicationWindow {
                 StyledPanel {
                     title: "Properties"
                     SplitView.preferredWidth: 260
-                    SplitView.minimumWidth: 180
+                    SplitView.minimumWidth: 220
                     collapsible: true
 
-                    ColumnLayout {
+                    PropertiesPanel {
                         anchors.fill: parent
-                        anchors.margins: 8
-                        spacing: 8
-
-                        Text {
-                            text: "No selection"
-                            color: Theme.mutedForeground
-                            font.pixelSize: 12
-                            Layout.fillWidth: true
-                            horizontalAlignment: Text.AlignHCenter
-                            Layout.topMargin: 40
-                        }
-
-                        Item { Layout.fillHeight: true }
+                        anchors.margins: 4
                     }
                 }
 

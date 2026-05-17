@@ -34,7 +34,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "iconForExt",
-                            "line": 564,
+                            "line": 552,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -42,13 +42,13 @@
                             "column": 5,
                             "durationMicroseconds": 10000,
                             "functionName": "rebuildFilter",
-                            "line": 574,
+                            "line": 562,
                             "message": "Cannot retrieve a non-object type by ID: searchField"
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 9000,
+                            "durationMicroseconds": 12000,
                             "functionName": "color",
                             "line": 26,
                             "message": ""
@@ -600,7 +600,7 @@
                         {
                             "codegenResult": 0,
                             "column": 62,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
                             "line": 349,
                             "message": ""
@@ -718,27 +718,11 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 418,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 50,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 421,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 432,
+                            "line": 420,
                             "message": "Cannot access value for name SplitHandle"
                         },
                         {
@@ -746,7 +730,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 441,
+                            "line": 429,
                             "message": ""
                         },
                         {
@@ -754,7 +738,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 444,
+                            "line": 432,
                             "message": ""
                         },
                         {
@@ -762,15 +746,15 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "currentIndex",
-                            "line": 451,
+                            "line": 439,
                             "message": "Cannot retrieve a non-object type by ID: bottomTabBar"
                         },
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 464,
+                            "line": 452,
                             "message": "Cannot access value for name SplitHandle"
                         },
                         {
@@ -778,7 +762,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 475,
+                            "line": 463,
                             "message": ""
                         },
                         {
@@ -786,8 +770,56 @@
                             "column": 75,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 475,
+                            "line": 463,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 467,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 469,
+                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 470,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 473,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 474,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 472,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
@@ -816,7 +848,7 @@
                         {
                             "codegenResult": 0,
                             "column": 42,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
                             "line": 485,
                             "message": ""
@@ -896,7 +928,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 0,
                             "functionName": "text",
                             "line": 505,
                             "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
@@ -934,59 +966,11 @@
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 515,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 517,
-                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 518,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 42,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 521,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 522,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 520,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
                             "codegenResult": 0,
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 530,
+                            "line": 518,
                             "message": ""
                         },
                         {
@@ -994,7 +978,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 531,
+                            "line": 519,
                             "message": ""
                         },
                         {
@@ -1002,7 +986,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 534,
+                            "line": 522,
                             "message": ""
                         },
                         {
@@ -1010,7 +994,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 541,
+                            "line": 529,
                             "message": ""
                         },
                         {
@@ -1018,15 +1002,15 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 549,
+                            "line": 537,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 2000,
                             "functionName": "text",
-                            "line": 555,
+                            "line": 543,
                             "message": "Cannot access value for name ProjectSettings"
                         },
                         {
@@ -1034,7 +1018,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 556,
+                            "line": 544,
                             "message": ""
                         },
                         {
@@ -1042,7 +1026,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fileMode",
-                            "line": 587,
+                            "line": 575,
                             "message": ""
                         },
                         {
@@ -1050,15 +1034,15 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "nameFilters",
-                            "line": 588,
+                            "line": 576,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 93000,
+                            "durationMicroseconds": 295000,
                             "functionName": "onAccepted",
-                            "line": 589,
+                            "line": 577,
                             "message": "method iconForExt cannot be resolved."
                         }
                     ],

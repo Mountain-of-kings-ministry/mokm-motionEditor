@@ -15,5 +15,10 @@ NodeEditorTab 254.0 src/pages/tabs/NodeEditorTab.qml
 GraphEditorTab 254.0 src/pages/tabs/GraphEditorTab.qml
 AudioEditorTab 254.0 src/pages/tabs/AudioEditorTab.qml
 ThemedIcon 254.0 src/pages/components/fragments/ThemedIcon.qml
+KeyframeDiamond 254.0 src/pages/components/fragments/KeyframeDiamond.qml
+PropertyRow 254.0 src/pages/components/fragments/PropertyRow.qml
+NumberSlider 254.0 src/pages/components/fragments/NumberSlider.qml
+ColorField 254.0 src/pages/components/fragments/ColorField.qml
+PropertiesPanel 254.0 src/pages/components/PropertiesPanel.qml
 depends QtQuick
 

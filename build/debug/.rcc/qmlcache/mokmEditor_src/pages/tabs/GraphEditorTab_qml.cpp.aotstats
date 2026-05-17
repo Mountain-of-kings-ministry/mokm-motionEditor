@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 7000,
+                            "durationMicroseconds": 13000,
                             "functionName": "color",
                             "line": 7,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 3000,
                             "functionName": "color",
                             "line": 30,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 4000,
                             "functionName": "source",
                             "line": 35,
                             "message": "Cannot access value for name modelData"

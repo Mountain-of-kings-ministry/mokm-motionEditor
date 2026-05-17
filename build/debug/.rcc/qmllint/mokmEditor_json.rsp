@@ -29,5 +29,10 @@
 /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/GraphEditorTab.qml
 /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/AudioEditorTab.qml
 /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ThemedIcon.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/KeyframeDiamond.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/PropertyRow.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/NumberSlider.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ColorField.qml
+/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/PropertiesPanel.qml
 --json
 /home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmEditor_qmllint.json

@@ -46,6 +46,11 @@ qt_add_qml_module(mokmEditor
         src/pages/tabs/GraphEditorTab.qml
         src/pages/tabs/AudioEditorTab.qml
         src/pages/components/fragments/ThemedIcon.qml
+        src/pages/components/fragments/KeyframeDiamond.qml
+        src/pages/components/fragments/PropertyRow.qml
+        src/pages/components/fragments/NumberSlider.qml
+        src/pages/components/fragments/ColorField.qml
+        src/pages/components/PropertiesPanel.qml
         SOURCES ${FUNCTION_SOURCES}
         RESOURCES src/resources/resources.qrc
 )

@@ -30,6 +30,16 @@ set(src_and_dest_list
     "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/tabs/AudioEditorTab.qml"
     "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ThemedIcon.qml"
     "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/fragments/ThemedIcon.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/KeyframeDiamond.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/fragments/KeyframeDiamond.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/PropertyRow.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/fragments/PropertyRow.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/NumberSlider.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/fragments/NumberSlider.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ColorField.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/fragments/ColorField.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/PropertiesPanel.qml"
+    "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/PropertiesPanel.qml"
 
 )
 set(timestamp_file "/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_qml.txt")

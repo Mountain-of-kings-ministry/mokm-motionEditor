@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 13000,
+                            "durationMicroseconds": 18000,
                             "functionName": "color",
                             "line": 25,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 19000,
                             "functionName": "preferredHeight",
                             "line": 23,
                             "message": "Cannot access value for name title"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 26,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 3000,
                             "functionName": "color",
                             "line": 55,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 15000,
                             "functionName": "centerIn",
                             "line": 59,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 0,
                             "functionName": "onClicked",
                             "line": 70,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 8000,
                             "functionName": "visible",
                             "line": 84,
                             "message": ""

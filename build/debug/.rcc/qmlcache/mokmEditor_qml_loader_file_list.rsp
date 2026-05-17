@@ -20,3 +20,8 @@
 /qt/qml/mokmME/src/pages/tabs/GraphEditorTab.qml
 /qt/qml/mokmME/src/pages/tabs/AudioEditorTab.qml
 /qt/qml/mokmME/src/pages/components/fragments/ThemedIcon.qml
+/qt/qml/mokmME/src/pages/components/fragments/KeyframeDiamond.qml
+/qt/qml/mokmME/src/pages/components/fragments/PropertyRow.qml
+/qt/qml/mokmME/src/pages/components/fragments/NumberSlider.qml
+/qt/qml/mokmME/src/pages/components/fragments/ColorField.qml
+/qt/qml/mokmME/src/pages/components/PropertiesPanel.qml

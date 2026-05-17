@@ -14,6 +14,11 @@
     <file alias="src/pages/tabs/GraphEditorTab.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/GraphEditorTab.qml</file>
     <file alias="src/pages/tabs/AudioEditorTab.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/tabs/AudioEditorTab.qml</file>
     <file alias="src/pages/components/fragments/ThemedIcon.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ThemedIcon.qml</file>
+    <file alias="src/pages/components/fragments/KeyframeDiamond.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/KeyframeDiamond.qml</file>
+    <file alias="src/pages/components/fragments/PropertyRow.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/PropertyRow.qml</file>
+    <file alias="src/pages/components/fragments/NumberSlider.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/NumberSlider.qml</file>
+    <file alias="src/pages/components/fragments/ColorField.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/fragments/ColorField.qml</file>
+    <file alias="src/pages/components/PropertiesPanel.qml">/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/components/PropertiesPanel.qml</file>
   </qresource>
 </RCC>
 

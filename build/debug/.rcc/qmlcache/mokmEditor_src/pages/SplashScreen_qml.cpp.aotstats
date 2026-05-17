@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 20000,
+                            "durationMicroseconds": 16000,
                             "functionName": "color",
                             "line": 13,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 6000,
+                            "durationMicroseconds": 0,
                             "functionName": "flags",
                             "line": 14,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 1000,
                             "functionName": "color",
                             "line": 31,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 1000,
                             "functionName": "color",
                             "line": 47,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 0,
                             "functionName": "alignment",
                             "line": 56,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 2000,
                             "functionName": "onTriggered",
                             "line": 65,
                             "message": "Type call to method createObject, returning QObject does not have a property show for calling"

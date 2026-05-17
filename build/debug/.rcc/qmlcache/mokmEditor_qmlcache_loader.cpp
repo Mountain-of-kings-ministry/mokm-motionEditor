@@ -103,6 +103,41 @@ namespace _qt_qml_mokmME_src_pages_components_fragments_ThemedIcon_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_mokmME_src_pages_components_fragments_KeyframeDiamond_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_fragments_PropertyRow_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_fragments_NumberSlider_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_fragments_ColorField_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_PropertiesPanel_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -131,6 +166,11 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/tabs/GraphEditorTab.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_tabs_GraphEditorTab_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/tabs/AudioEditorTab.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_tabs_AudioEditorTab_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/ThemedIcon.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_ThemedIcon_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/KeyframeDiamond.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_KeyframeDiamond_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/PropertyRow.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_PropertyRow_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/NumberSlider.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_NumberSlider_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/ColorField.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_ColorField_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/PropertiesPanel.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_PropertiesPanel_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
