@@ -246,3 +246,21 @@
 1087	1355	1779020923600864643	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp.o	382b1aae5765bdac
 1085	11504	1779020933739125001	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
 11505	13038	1779020935267163875	mokmEditor	ad083c8fac3d9e7e
+50	66	1779021261383759901	.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+50	66	1779021261383759901	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/mokmEditor_qml.txt	7b5ca4ea40b3a303
+50	449	1779021261761374915	.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+50	449	1779021261761374915	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/qml_imports/mokmEditor_build.cmake	62ba24cff240b8e3
+450	649	1779021261964685941	.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+450	649	1779021261964685941	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp	34717191cd3e8793
+450	922	1779021262185689378	.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp	e09829ca1724580d
+450	922	1779021262185689378	.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.aotstats	e09829ca1724580d
+450	922	1779021262185689378	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp	e09829ca1724580d
+450	922	1779021262185689378	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.aotstats	e09829ca1724580d
+449	1303	1779021262568695333	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+449	1303	1779021262568695333	.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+449	1303	1779021262568695333	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp	34e277d7c269c020
+449	1303	1779021262568695333	/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.aotstats	34e277d7c269c020
+1305	1553	1779021262854699780	CMakeFiles/mokmEditor.dir/.qt/rcc/qrc_mokmEditor_raw_qml_0.cpp.o	382b1aae5765bdac
+1304	8751	1779021270059811194	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/tabs/TimelineTab_qml.cpp.o	b27ba1eacd2a7bfe
+1304	11234	1779021272537849255	CMakeFiles/mokmEditor.dir/.rcc/qmlcache/mokmEditor_src/pages/Main_qml.cpp.o	bede401b5cd3b00f
+11234	12795	1779021274082872922	mokmEditor	ad083c8fac3d9e7e
