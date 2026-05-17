@@ -13,7 +13,7 @@ ApplicationWindow {
     minimumWidth: 1024
     minimumHeight: 600
     visible: true
-    title: qsTr("MOKM MotionEditor — Untitled Project")
+    title: qsTr("MOKM MotionEditor — ") + (ProjectSettings ? ProjectSettings.projectName : "Untitled")
 
     flags: Qt.FramelessWindowHint | Qt.Window
 
@@ -297,100 +297,95 @@ ApplicationWindow {
                             Layout.fillWidth: true
                             spacing: 4
 
-                            StyledButton {
-                                text: "Import"
-                                iconSource: "qrc:/icons/outline/file-import.svg"
-                                variant: "secondary"
+                            Rectangle {
                                 Layout.fillWidth: true
-                                onClicked: importDialog.open()
-                            }
-
-                            StyledButton {
-                                iconSource: "qrc:/icons/outline/plus.svg"
-                                variant: "ghost"
-                                Layout.preferredWidth: 32
-                                onClicked: { /* new folder, etc */ }
-                            }
-                        }
-
-                        Rectangle {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 28
-                            color: Theme.input
-                            border.color: Theme.border
-                            border.width: 1
-                            radius: 4
-
-                            RowLayout {
-                                anchors.fill: parent
-                                anchors.leftMargin: 8
-                                spacing: 4
-                                ThemedIcon {
-                                    source: "qrc:/icons/outline/search.svg"
-                                    iconSize: 12
-                                    color: Theme.mutedForeground
-                                }
-                                TextField {
-                                    Layout.fillWidth: true
-                                    color: Theme.foreground
-                                    font.pixelSize: 11
-                                    placeholderText: "Search assets..."
-                                    background: null
-                                    topPadding: 0
-                                    bottomPadding: 0
-                                }
-                            }
-                        }
-
-                        ListView {
-                            Layout.fillWidth: true
-                            Layout.fillHeight: true
-                            spacing: 2
-                            clip: true
-                            model: ["Videos", "Audio", "Images", "Compositions", "Effects"]
-                            delegate: Rectangle {
-                                width: parent.width
-                                height: 28
-                                color: mouseArea3.containsMouse ? Theme.secondaryHover : "transparent"
+                                Layout.preferredHeight: 28
+                                color: Theme.input
+                                border.color: Theme.border
+                                border.width: 1
                                 radius: 4
 
                                 RowLayout {
                                     anchors.fill: parent
                                     anchors.leftMargin: 8
-                                    spacing: 8
-
+                                    spacing: 4
                                     ThemedIcon {
-                                        source: {
-                                            var icons = ["video", "music", "photo", "layers-subtract", "sparkles"];
-                                            "qrc:/icons/outline/" + icons[index] + ".svg"
-                                        }
-                                        iconSize: 14
-                                        color: Theme.foreground
-                                    }
-
-                                    Text {
-                                        text: modelData
-                                        color: Theme.foreground
-                                        font.pixelSize: 12
-                                    }
-
-                                    Item { Layout.fillWidth: true }
-
-                                    Text {
-                                        text: "0"
+                                        source: "qrc:/icons/outline/search.svg"
+                                        iconSize: 12
                                         color: Theme.mutedForeground
-                                        font.pixelSize: 10
                                     }
-                                }
-
-                                MouseArea {
-                                    id: mouseArea3
-                                    anchors.fill: parent
-                                    hoverEnabled: true
-                                    cursorShape: Qt.PointingHandCursor
+                                    TextField {
+                                        id: searchField
+                                        Layout.fillWidth: true
+                                        color: Theme.foreground
+                                        font.pixelSize: 11
+                                        placeholderText: "Search assets..."
+                                        background: null
+                                        topPadding: 0
+                                        bottomPadding: 0
+                                        onTextChanged: rebuildFilter()
+                                    }
                                 }
                             }
+
+                            StyledButton {
+                                iconSource: "qrc:/icons/outline/plus.svg"
+                                variant: "ghost"
+                                Layout.preferredWidth: 28
+                                Layout.preferredHeight: 28
+                                onClicked: importDialog.open()
+                            }
                         }
+
+                            ListView {
+                                id: mediaList
+                                Layout.fillWidth: true
+                                Layout.fillHeight: true
+                                spacing: 2
+                                clip: true
+                                model: ListModel { id: filteredMediaModel }
+                                delegate: Rectangle {
+                                    width: parent ? parent.width : 0
+                                    height: 28
+                                    color: mouseArea.containsMouse ? Theme.secondaryHover : "transparent"
+                                    radius: 4
+
+                                    RowLayout {
+                                        anchors.fill: parent
+                                        anchors.leftMargin: 8
+                                        spacing: 8
+
+                                        ThemedIcon {
+                                            source: "qrc:/icons/outline/" + iconName + ".svg"
+                                            iconSize: 14
+                                            color: Theme.foreground
+                                        }
+
+                                        Text {
+                                            text: fileName
+                                            color: Theme.foreground
+                                            font.pixelSize: 12
+                                            elide: Text.ElideRight
+                                            Layout.fillWidth: true
+                                        }
+
+                                        Text {
+                                            text: fileExt
+                                            color: Theme.mutedForeground
+                                            font.pixelSize: 10
+                                        }
+                                    }
+
+                                    MouseArea {
+                                        id: mouseArea
+                                        anchors.fill: parent
+                                        hoverEnabled: true
+                                        cursorShape: Qt.PointingHandCursor
+                                    }
+                                }
+                            }
+
+                            ListModel { id: mediaModel }
                     }
                 }
 
@@ -686,7 +681,7 @@ ApplicationWindow {
                 }
 
                 Text {
-                    text: "1920x1080 | 29.97 fps"
+                    text: ProjectSettings ? ProjectSettings.width + "x" + ProjectSettings.height + " | " + ProjectSettings.frameRate.toFixed(2) + " fps" : "1920x1080 | 29.97 fps"
                     color: Theme.mutedForeground
                     font.pixelSize: 10
                 }
@@ -695,11 +690,41 @@ ApplicationWindow {
     }
 
 
+    function iconForExt(ext) {
+        var map = {
+            "mp4": "video", "mov": "video", "avi": "video", "mkv": "video", "webm": "video",
+            "mp3": "music", "wav": "music", "flac": "music", "ogg": "music", "aac": "music",
+            "png": "photo", "jpg": "photo", "jpeg": "photo", "svg": "photo", "gif": "photo", "webp": "photo",
+            "psd": "layers-subtract", "ai": "layers-subtract", "blend": "layers-subtract"
+        };
+        return map[ext] || "file";
+    }
+
+    function rebuildFilter() {
+        filteredMediaModel.clear()
+        var q = searchField.text.toLowerCase()
+        for (var i = 0; i < mediaModel.count; i++) {
+            var item = mediaModel.get(i)
+            if (!q || item.fileName.toLowerCase().indexOf(q) !== -1)
+                filteredMediaModel.append({ fileName: item.fileName, fileExt: item.fileExt, iconName: item.iconName, filePath: item.filePath })
+        }
+    }
+
     FileDialog {
         id: importDialog
         title: "Import Media"
         fileMode: FileDialog.OpenFiles
         nameFilters: ["All supported (*.mp4 *.mov *.avi *.mkv *.png *.jpg *.svg *.gif *.mp3 *.wav *.flac)", "All files (*)"]
+        onAccepted: {
+            for (var i = 0; i < selectedFiles.length; i++) {
+                var path = selectedFiles[i];
+                var name = path.toString().split("/").pop();
+                var parts = name.split(".");
+                var ext = parts.length > 1 ? parts[parts.length - 1].toLowerCase() : "";
+                mediaModel.append({ fileName: name, fileExt: ext, iconName: iconForExt(ext), filePath: path });
+            }
+            rebuildFilter()
+        }
     }
 
     SomeClass {

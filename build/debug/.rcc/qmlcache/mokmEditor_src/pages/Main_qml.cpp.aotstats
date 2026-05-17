@@ -9,6 +9,14 @@
                             "codegenResult": 2,
                             "column": 12,
                             "durationMicroseconds": 0,
+                            "functionName": "title",
+                            "line": 16,
+                            "message": "Could not find property \"title\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
                             "functionName": "flags",
                             "line": 18,
                             "message": "Could not find property \"flags\"."
@@ -22,9 +30,25 @@
                             "message": "Could not find property \"color\"."
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "iconForExt",
+                            "line": 693,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 8000,
+                            "functionName": "rebuildFilter",
+                            "line": 703,
+                            "message": "Cannot retrieve a non-object type by ID: searchField"
+                        },
+                        {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 7000,
+                            "durationMicroseconds": 9000,
                             "functionName": "color",
                             "line": 26,
                             "message": ""
@@ -503,210 +527,82 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 44,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 305,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 44,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 312,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
+                            "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 319,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 320,
+                            "line": 303,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 325,
+                            "functionName": "color",
+                            "line": 304,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 44,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 309,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 331,
+                            "line": 315,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 44,
+                            "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 335,
+                            "line": 320,
                             "message": "Could not find property \"color\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 36,
+                            "column": 56,
                             "durationMicroseconds": 0,
-                            "functionName": "model",
-                            "line": 350,
-                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                            "functionName": "onTextChanged",
+                            "line": 326,
+                            "message": "Could not find signal \"textChanged\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 352,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 354,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 358,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 49,
-                            "durationMicroseconds": 0,
-                            "functionName": "source",
-                            "line": 363,
-                            "message": "Cannot access value for name index"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 368,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 372,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 373,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 381,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 50,
-                            "durationMicroseconds": 0,
-                            "functionName": "cursorShape",
-                            "line": 390,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 388,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 402,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 403,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 39,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 406,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 413,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 414,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 417,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 44,
                             "durationMicroseconds": 0,
-                            "functionName": "model",
-                            "line": 423,
-                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                            "functionName": "onClicked",
+                            "line": 336,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 48,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 348,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 427,
+                            "line": 350,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 354,
                             "message": ""
                         },
                         {
@@ -714,47 +610,95 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "source",
-                            "line": 432,
-                            "message": "Cannot access value for name modelData"
+                            "line": 359,
+                            "message": "Cannot access value for name iconName"
                         },
                         {
                             "codegenResult": 0,
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 434,
+                            "line": 361,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 63,
+                            "codegenResult": 2,
+                            "column": 51,
                             "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 431,
-                            "message": ""
+                            "functionName": "text",
+                            "line": 365,
+                            "message": "Cannot access value for name fileName"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 58,
-                            "durationMicroseconds": 0,
-                            "functionName": "cursorShape",
-                            "line": 441,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 439,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 44,
+                            "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 450,
+                            "line": 366,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 368,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 373,
+                            "message": "Cannot access value for name fileExt"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 374,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 383,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 381,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 397,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 398,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 401,
                             "message": ""
                         },
                         {
@@ -762,7 +706,95 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 463,
+                            "line": 408,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 409,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 412,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 418,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 422,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 53,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 427,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 429,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 426,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 58,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 436,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 434,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 445,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 458,
                             "message": ""
                         },
                         {
@@ -770,7 +802,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 468,
+                            "line": 463,
                             "message": ""
                         },
                         {
@@ -778,7 +810,7 @@
                             "column": 41,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 469,
+                            "line": 464,
                             "message": ""
                         },
                         {
@@ -786,7 +818,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 470,
+                            "line": 465,
                             "message": ""
                         },
                         {
@@ -794,7 +826,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 467,
+                            "line": 462,
                             "message": ""
                         },
                         {
@@ -802,7 +834,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 471,
+                            "line": 466,
                             "message": ""
                         },
                         {
@@ -810,7 +842,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 476,
+                            "line": 471,
                             "message": ""
                         },
                         {
@@ -818,7 +850,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 481,
+                            "line": 476,
                             "message": ""
                         },
                         {
@@ -826,7 +858,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 483,
+                            "line": 478,
                             "message": ""
                         },
                         {
@@ -834,7 +866,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 492,
+                            "line": 487,
                             "message": ""
                         },
                         {
@@ -842,7 +874,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 491,
+                            "line": 486,
                             "message": ""
                         },
                         {
@@ -850,7 +882,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 502,
+                            "line": 497,
                             "message": ""
                         },
                         {
@@ -858,7 +890,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 503,
+                            "line": 498,
                             "message": ""
                         },
                         {
@@ -866,7 +898,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 506,
+                            "line": 501,
                             "message": ""
                         },
                         {
@@ -874,7 +906,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 510,
+                            "line": 505,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -882,7 +914,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 514,
+                            "line": 509,
                             "message": ""
                         },
                         {
@@ -890,7 +922,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "source",
-                            "line": 519,
+                            "line": 514,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -898,7 +930,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 521,
+                            "line": 516,
                             "message": ""
                         },
                         {
@@ -906,7 +938,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "opacity",
-                            "line": 522,
+                            "line": 517,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -914,7 +946,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 518,
+                            "line": 513,
                             "message": ""
                         },
                         {
@@ -922,7 +954,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 529,
+                            "line": 524,
                             "message": ""
                         },
                         {
@@ -930,7 +962,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 527,
+                            "line": 522,
                             "message": ""
                         },
                         {
@@ -938,7 +970,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 546,
+                            "line": 541,
                             "message": ""
                         },
                         {
@@ -946,7 +978,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 552,
+                            "line": 547,
                             "message": ""
                         },
                         {
@@ -954,7 +986,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 555,
+                            "line": 550,
                             "message": ""
                         },
                         {
@@ -962,7 +994,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 566,
+                            "line": 561,
                             "message": "Cannot access value for name SplitHandle"
                         },
                         {
@@ -970,7 +1002,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 575,
+                            "line": 570,
                             "message": ""
                         },
                         {
@@ -978,7 +1010,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 578,
+                            "line": 573,
                             "message": ""
                         },
                         {
@@ -986,7 +1018,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "currentIndex",
-                            "line": 585,
+                            "line": 580,
                             "message": "Cannot retrieve a non-object type by ID: bottomTabBar"
                         },
                         {
@@ -994,7 +1026,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 598,
+                            "line": 593,
                             "message": "Cannot access value for name SplitHandle"
                         },
                         {
@@ -1002,7 +1034,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 609,
+                            "line": 604,
                             "message": ""
                         },
                         {
@@ -1010,7 +1042,7 @@
                             "column": 75,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 609,
+                            "line": 604,
                             "message": ""
                         },
                         {
@@ -1018,15 +1050,63 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
+                            "line": 608,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 610,
+                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 611,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 614,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 615,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
                             "line": 613,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 620,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 615,
+                            "line": 622,
                             "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1034,7 +1114,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 616,
+                            "line": 623,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1042,7 +1122,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 619,
+                            "line": 626,
                             "message": ""
                         },
                         {
@@ -1050,7 +1130,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 620,
+                            "line": 627,
                             "message": ""
                         },
                         {
@@ -1058,23 +1138,23 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
-                            "line": 618,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
                             "line": 625,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 632,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 627,
+                            "line": 634,
                             "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1082,7 +1162,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 628,
+                            "line": 635,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1090,7 +1170,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 631,
+                            "line": 638,
                             "message": ""
                         },
                         {
@@ -1098,7 +1178,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 632,
+                            "line": 639,
                             "message": ""
                         },
                         {
@@ -1106,63 +1186,15 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
-                            "line": 630,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
                             "line": 637,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 639,
-                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 640,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 42,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 643,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 644,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 642,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 649,
+                            "line": 644,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1170,7 +1202,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 651,
+                            "line": 646,
                             "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1178,7 +1210,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 652,
+                            "line": 647,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1186,7 +1218,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 655,
+                            "line": 650,
                             "message": ""
                         },
                         {
@@ -1194,7 +1226,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 656,
+                            "line": 651,
                             "message": ""
                         },
                         {
@@ -1202,7 +1234,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
-                            "line": 654,
+                            "line": 649,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1210,7 +1242,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 664,
+                            "line": 659,
                             "message": ""
                         },
                         {
@@ -1218,7 +1250,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 665,
+                            "line": 660,
                             "message": ""
                         },
                         {
@@ -1226,7 +1258,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 668,
+                            "line": 663,
                             "message": ""
                         },
                         {
@@ -1234,7 +1266,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 675,
+                            "line": 670,
                             "message": ""
                         },
                         {
@@ -1242,15 +1274,23 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 683,
+                            "line": 678,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 2000,
+                            "functionName": "text",
+                            "line": 684,
+                            "message": "Cannot access value for name ProjectSettings"
                         },
                         {
                             "codegenResult": 0,
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 690,
+                            "line": 685,
                             "message": ""
                         },
                         {
@@ -1258,7 +1298,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fileMode",
-                            "line": 701,
+                            "line": 716,
                             "message": ""
                         },
                         {
@@ -1266,8 +1306,16 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "nameFilters",
-                            "line": 702,
+                            "line": 717,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 88000,
+                            "functionName": "onAccepted",
+                            "line": 718,
+                            "message": "method iconForExt cannot be resolved."
                         }
                     ],
                     "filePath": "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml"
