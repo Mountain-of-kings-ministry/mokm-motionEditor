@@ -1,0 +1,16 @@
+-rootPath
+/home/david/Documents/projects/software/Template_QT
+-cmake-output
+-output-file
+/home/david/Documents/projects/software/Template_QT/build/.qt/qml_imports/apptemplate_conf.cmake
+-importPath
+/home/david/Documents/projects/software/Template_QT/build
+-importPath
+/home/david/Documents/projects/software/Template_QT/build/template
+-importPath
+/home/david/Qt/6.11.0/gcc_64/qml
+-qrcFiles
+/home/david/Documents/projects/software/Template_QT/build/.qt/rcc/qmake_template.qrc
+/home/david/Documents/projects/software/Template_QT/build/.qt/rcc/apptemplate_raw_qml_0.qrc
+/home/david/Documents/projects/software/Template_QT/build/.qt/rcc/apptemplate_raw_res_0.qrc
+/home/david/Documents/projects/software/Template_QT/build/.qt/rcc/apptemplate_raw_qml_0_extra_qmldirs.qrc

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_apptemplate_FILE /home/david/Documents/projects/software/Template_QT/build/apptemplate)
+set(__QT_DEPLOY_TARGET_apptemplate_TYPE EXECUTABLE)

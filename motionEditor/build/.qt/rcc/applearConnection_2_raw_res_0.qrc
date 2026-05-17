@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/template/">
+    <file alias="src/resources/resources.qrc">/home/david/Documents/projects/software/Template_QT/src/resources/resources.qrc</file>
+  </qresource>
+</RCC>
+

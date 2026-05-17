@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/template">
+    <file alias="qmldir">/home/david/Documents/projects/software/Template_QT/build/template/qmldir</file>
+  </qresource>
+</RCC>
+
