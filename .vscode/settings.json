@@ -1,5 +1,5 @@
 {
-  "cmake.sourceDirectory": "/home/david/Documents/projects/learn/nodeapackage",
+  // "cmake.sourceDirectory": "/home/david/Documents/projects/learn/nodeapackage",
   "files.exclude": {
     "**documentation/node_modules": true,
     "**/code/vcpkg_installed": true,
@@ -22,5 +22,6 @@
     "**/web": true,
     "**/code/resources/icons/**": true,
     "**/code/resources/status_icons/**": true
-  }
+  },
+  "cmake.sourceDirectory": "/home/david/Documents/projects/software/MOKM MotionEditor/motionEditor"
 }

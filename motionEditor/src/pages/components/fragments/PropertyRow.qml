@@ -13,7 +13,16 @@ RowLayout {
 
     signal toggleKeyframe()
 
-    spacing: 6
+    spacing: 4
+
+    KeyframeDiamond {
+        visible: root.animatable
+        active: root.keyframed
+        Layout.preferredWidth: 14
+        Layout.preferredHeight: 14
+        Layout.alignment: Qt.AlignVCenter
+        onClicked: root.toggleKeyframe()
+    }
 
     Text {
         text: root.label
@@ -30,15 +39,6 @@ RowLayout {
         id: controlSlot
         Layout.fillWidth: true
         Layout.preferredHeight: 26
-    }
-
-    KeyframeDiamond {
-        visible: root.animatable
-        active: root.keyframed
-        Layout.preferredWidth: 14
-        Layout.preferredHeight: 14
-        Layout.alignment: Qt.AlignVCenter
-        onClicked: root.toggleKeyframe()
     }
 
     default property alias cell: controlSlot.data

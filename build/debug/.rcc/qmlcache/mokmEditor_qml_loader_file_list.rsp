@@ -24,4 +24,8 @@
 /qt/qml/mokmME/src/pages/components/fragments/PropertyRow.qml
 /qt/qml/mokmME/src/pages/components/fragments/NumberSlider.qml
 /qt/qml/mokmME/src/pages/components/fragments/ColorField.qml
+/qt/qml/mokmME/src/pages/components/fragments/TrackTypeConfig.qml
+/qt/qml/mokmME/src/pages/components/fragments/AddTrackDialog.qml
+/qt/qml/mokmME/src/pages/components/timeline/TimelineLayerHeader.qml
+/qt/qml/mokmME/src/pages/components/timeline/TimelineTrackHeader.qml
 /qt/qml/mokmME/src/pages/components/PropertiesPanel.qml

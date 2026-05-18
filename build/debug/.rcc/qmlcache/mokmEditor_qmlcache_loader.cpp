@@ -131,6 +131,34 @@ namespace _qt_qml_mokmME_src_pages_components_fragments_ColorField_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_mokmME_src_pages_components_fragments_TrackTypeConfig_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_fragments_AddTrackDialog_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_timeline_TimelineLayerHeader_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_mokmME_src_pages_components_timeline_TimelineTrackHeader_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _qt_qml_mokmME_src_pages_components_PropertiesPanel_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -170,6 +198,10 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/PropertyRow.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_PropertyRow_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/NumberSlider.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_NumberSlider_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/ColorField.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_ColorField_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/TrackTypeConfig.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_TrackTypeConfig_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/fragments/AddTrackDialog.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_fragments_AddTrackDialog_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/timeline/TimelineLayerHeader.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_timeline_TimelineLayerHeader_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/timeline/TimelineTrackHeader.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_timeline_TimelineTrackHeader_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/mokmME/src/pages/components/PropertiesPanel.qml"), &QmlCacheGeneratedCode::_qt_qml_mokmME_src_pages_components_PropertiesPanel_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;

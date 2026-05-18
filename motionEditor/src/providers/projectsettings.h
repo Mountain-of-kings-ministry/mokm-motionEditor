@@ -4,9 +4,15 @@
 #include <QObject>
 #include <QString>
 
+class Composition;
+namespace mokm { class AudioEngine; }
+
 class ProjectSettings : public QObject
 {
     Q_OBJECT
+    Q_PROPERTY(Composition* composition READ composition CONSTANT)
+    Q_PROPERTY(mokm::AudioEngine* audioEngine READ audioEngine CONSTANT)
+    Q_PROPERTY(double currentTime READ currentTime WRITE setCurrentTime NOTIFY currentTimeChanged FINAL)
     Q_PROPERTY(QString projectName READ projectName WRITE setProjectName NOTIFY projectNameChanged FINAL)
     Q_PROPERTY(int width READ width WRITE setWidth NOTIFY widthChanged FINAL)
     Q_PROPERTY(int height READ height WRITE setHeight NOTIFY heightChanged FINAL)
@@ -24,6 +30,9 @@ class ProjectSettings : public QObject
 public:
     explicit ProjectSettings(QObject *parent = nullptr);
 
+    Composition* composition() const;
+    mokm::AudioEngine* audioEngine() const;
+    double currentTime() const;
     QString projectName() const;
     int width() const;
     int height() const;
@@ -40,6 +49,7 @@ public:
 
 public slots:
     void setProjectName(const QString &name);
+    void setCurrentTime(double t);
     void setWidth(int w);
     void setHeight(int h);
     void setFrameRate(double fps);
@@ -55,6 +65,7 @@ public slots:
 
 signals:
     void projectNameChanged();
+    void currentTimeChanged();
     void widthChanged();
     void heightChanged();
     void frameRateChanged();
@@ -69,6 +80,9 @@ signals:
     void vectorEngineChanged();
 
 private:
+    Composition* m_composition = nullptr;
+    mokm::AudioEngine* m_audioEngine = nullptr;
+    double m_currentTime = 0.0;
     QString m_projectName = "Untitled";
     int m_width = 1920;
     int m_height = 1080;

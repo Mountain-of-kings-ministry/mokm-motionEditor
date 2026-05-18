@@ -411,6 +411,8 @@ ApplicationWindow {
                     PropertiesPanel {
                         anchors.fill: parent
                         anchors.margins: 4
+                        selectedLayer: timelineTab.selectedLayer
+                        selectedTrack: timelineTab.selectedTrack
                     }
                 }
 
@@ -438,7 +440,7 @@ ApplicationWindow {
                         Layout.fillHeight: true
                         currentIndex: bottomTabBar.currentIndex
 
-                        TimelineTab { }
+                        TimelineTab { id: timelineTab }
                         NodeEditorTab { }
                         GraphEditorTab { }
                         AudioEditorTab { }

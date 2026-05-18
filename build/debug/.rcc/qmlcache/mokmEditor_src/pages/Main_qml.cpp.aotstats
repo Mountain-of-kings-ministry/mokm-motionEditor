@@ -34,21 +34,21 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "iconForExt",
-                            "line": 552,
+                            "line": 554,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 10000,
+                            "durationMicroseconds": 9000,
                             "functionName": "rebuildFilter",
-                            "line": 562,
+                            "line": 564,
                             "message": "Cannot retrieve a non-object type by ID: searchField"
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 12000,
+                            "durationMicroseconds": 11000,
                             "functionName": "color",
                             "line": 26,
                             "message": ""
@@ -711,6 +711,22 @@
                         },
                         {
                             "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "selectedLayer",
+                            "line": 414,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "selectedTrack",
+                            "line": 415,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
@@ -722,7 +738,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 420,
+                            "line": 422,
                             "message": "Cannot access value for name SplitHandle"
                         },
                         {
@@ -730,7 +746,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 429,
+                            "line": 431,
                             "message": ""
                         },
                         {
@@ -738,7 +754,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 432,
+                            "line": 434,
                             "message": ""
                         },
                         {
@@ -746,7 +762,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "currentIndex",
-                            "line": 439,
+                            "line": 441,
                             "message": "Cannot retrieve a non-object type by ID: bottomTabBar"
                         },
                         {
@@ -754,7 +770,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 452,
+                            "line": 454,
                             "message": "Cannot access value for name SplitHandle"
                         },
                         {
@@ -762,7 +778,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 463,
+                            "line": 465,
                             "message": ""
                         },
                         {
@@ -770,7 +786,7 @@
                             "column": 75,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 463,
+                            "line": 465,
                             "message": ""
                         },
                         {
@@ -778,7 +794,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 467,
+                            "line": 469,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -786,7 +802,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 469,
+                            "line": 471,
                             "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -794,63 +810,15 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 470,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 42,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 473,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 474,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
                             "line": 472,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 479,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 481,
-                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 482,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
                             "codegenResult": 0,
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 485,
+                            "line": 475,
                             "message": ""
                         },
                         {
@@ -858,7 +826,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 486,
+                            "line": 476,
                             "message": ""
                         },
                         {
@@ -866,39 +834,39 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
+                            "line": 474,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 481,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 483,
+                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
                             "line": 484,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 491,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 493,
-                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 494,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
                             "codegenResult": 0,
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 497,
+                            "line": 487,
                             "message": ""
                         },
                         {
@@ -906,7 +874,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 498,
+                            "line": 488,
                             "message": ""
                         },
                         {
@@ -914,39 +882,39 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
+                            "line": 486,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 493,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 495,
+                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
                             "line": 496,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 503,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 505,
-                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 506,
-                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
-                        },
-                        {
                             "codegenResult": 0,
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 509,
+                            "line": 499,
                             "message": ""
                         },
                         {
@@ -954,7 +922,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 510,
+                            "line": 500,
                             "message": ""
                         },
                         {
@@ -962,7 +930,55 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
+                            "line": 498,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 505,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 507,
+                            "message": "Cannot load property text from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
                             "line": 508,
+                            "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 511,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 512,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 510,
                             "message": "Cannot load property checked from (component in /home/david/Documents/projects/software/MOKM MotionEditor/motionEditor/src/pages/Main.qml)::parent with type QQuickItem."
                         },
                         {
@@ -970,7 +986,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 518,
+                            "line": 520,
                             "message": ""
                         },
                         {
@@ -978,7 +994,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 519,
+                            "line": 521,
                             "message": ""
                         },
                         {
@@ -986,7 +1002,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 522,
+                            "line": 524,
                             "message": ""
                         },
                         {
@@ -994,7 +1010,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 529,
+                            "line": 531,
                             "message": ""
                         },
                         {
@@ -1002,7 +1018,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 537,
+                            "line": 539,
                             "message": ""
                         },
                         {
@@ -1010,7 +1026,7 @@
                             "column": 27,
                             "durationMicroseconds": 2000,
                             "functionName": "text",
-                            "line": 543,
+                            "line": 545,
                             "message": "Cannot access value for name ProjectSettings"
                         },
                         {
@@ -1018,7 +1034,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 544,
+                            "line": 546,
                             "message": ""
                         },
                         {
@@ -1026,7 +1042,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fileMode",
-                            "line": 575,
+                            "line": 577,
                             "message": ""
                         },
                         {
@@ -1034,15 +1050,15 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "nameFilters",
-                            "line": 576,
+                            "line": 578,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 295000,
+                            "durationMicroseconds": 101000,
                             "functionName": "onAccepted",
-                            "line": 577,
+                            "line": 579,
                             "message": "method iconForExt cannot be resolved."
                         }
                     ],

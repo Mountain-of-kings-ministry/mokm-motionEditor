@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 45000,
+                            "durationMicroseconds": 111000,
                             "functionName": "color",
                             "line": 15,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 8000,
+                            "durationMicroseconds": 0,
                             "functionName": "flags",
                             "line": 16,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 12000,
                             "functionName": "openMainWindow",
                             "line": 504,
                             "message": "Type call to method createObject, returning QObject does not have a property show for calling"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 6000,
                             "functionName": "fill",
                             "line": 19,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 13000,
                             "functionName": "color",
                             "line": 69,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 0,
                             "functionName": "centerIn",
                             "line": 73,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 101,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 36000,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 120,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 44,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 9000,
                             "functionName": "color",
                             "line": 134,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 5000,
+                            "durationMicroseconds": 0,
                             "functionName": "resolution",
                             "line": 158,
                             "message": "Cannot access value for name model"
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 19000,
+                            "durationMicroseconds": 0,
                             "functionName": "onClicked",
                             "line": 163,
                             "message": "method openMainWindow cannot be resolved."
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 2,
                             "column": 62,
-                            "durationMicroseconds": 12000,
+                            "durationMicroseconds": 0,
                             "functionName": "onComboIndexChanged",
                             "line": 237,
                             "message": "method applyPreset cannot be resolved."
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 11000,
+                            "durationMicroseconds": 0,
                             "functionName": "model",
                             "line": 265,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 0,
                             "functionName": "model",
                             "line": 279,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 7000,
+                            "durationMicroseconds": 0,
                             "functionName": "model",
                             "line": 307,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 5000,
                             "functionName": "model",
                             "line": 320,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 8000,
                             "functionName": "color",
                             "line": 360,
                             "message": ""
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 0,
                             "column": 48,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 387,
                             "message": ""
@@ -496,7 +496,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 6000,
                             "functionName": "fill",
                             "line": 393,
                             "message": ""
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 0,
                             "column": 56,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 2000,
                             "functionName": "color",
                             "line": 400,
                             "message": ""

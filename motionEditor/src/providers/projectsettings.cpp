@@ -1,9 +1,20 @@
 #include "projectsettings.h"
+#include "Composition.h"
+#include "AudioEngine.h"
 
 ProjectSettings::ProjectSettings(QObject *parent)
     : QObject{parent}
 {
+    m_composition = new Composition(this);
+    m_audioEngine = new mokm::AudioEngine(this);
+    m_audioEngine->start(48000, 512); // Default startup
 }
+
+Composition* ProjectSettings::composition() const { return m_composition; }
+
+mokm::AudioEngine* ProjectSettings::audioEngine() const { return m_audioEngine; }
+
+double ProjectSettings::currentTime() const { return m_currentTime; }
 
 QString ProjectSettings::projectName() const { return m_projectName; }
 int ProjectSettings::width() const { return m_width; }
@@ -24,6 +35,14 @@ void ProjectSettings::setProjectName(const QString &name)
     if (name != m_projectName) {
         m_projectName = name;
         emit projectNameChanged();
+    }
+}
+
+void ProjectSettings::setCurrentTime(double t)
+{
+    if (!qFuzzyCompare(t, m_currentTime)) {
+        m_currentTime = t;
+        emit currentTimeChanged();
     }
 }
 

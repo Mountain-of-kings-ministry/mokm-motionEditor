@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 140000,
+                            "durationMicroseconds": 9000,
                             "functionName": "color",
                             "line": 23,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 6000,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 36,
                             "message": "Cannot retrieve a non-object type by ID: fieldInput"

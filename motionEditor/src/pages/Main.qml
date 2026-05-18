@@ -252,6 +252,47 @@ ApplicationWindow {
                                         anchors.fill: parent
                                         hoverEnabled: true
                                         cursorShape: Qt.PointingHandCursor
+                                        acceptedButtons: Qt.LeftButton | Qt.RightButton
+                                        onClicked: function(mouse) {
+                                            if (mouse.button === Qt.RightButton) {
+                                                mediaContextMenu.popup()
+                                            }
+                                        }
+                                    }
+
+                                    Menu {
+                                        id: mediaContextMenu
+                                        background: Rectangle { color: Theme.secondary; border.color: Theme.border; radius: 4 }
+                                        delegate: MenuItem {
+                                            id: miDelegate
+                                            implicitWidth: 160
+                                            implicitHeight: 28
+                                            background: Rectangle { color: miDelegate.highlighted ? Theme.secondaryHover : "transparent" }
+                                            contentItem: Text {
+                                                text: miDelegate.text
+                                                color: Theme.foreground
+                                                font.pixelSize: 11
+                                                leftPadding: 8
+                                                verticalAlignment: Text.AlignVCenter
+                                            }
+                                        }
+
+                                        MenuItem {
+                                            text: "Add to Timeline"
+                                            onTriggered: {
+                                                if (timelineTab.selectedTrack) {
+                                                    var track = timelineTab.selectedTrack
+                                                    var comp = ProjectSettings.composition
+                                                    if (iconName === "video" || iconName === "photo") {
+                                                        comp.createVideoClip(track, fileName, filePath, 0, 10)
+                                                    } else if (iconName === "git-merge") {
+                                                        comp.createThorVGClip(track, fileName, filePath, 0, 10)
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        MenuItem { text: "Properties" }
+                                        MenuItem { text: "Delete" }
                                     }
                                 }
                             }
@@ -329,14 +370,24 @@ ApplicationWindow {
                             color: Theme.background
                             clip: true
 
+                            ViewportRenderer {
+                                id: viewportRenderer
+                                anchors.centerIn: parent
+                                width: parent ? parent.width * 0.9 : 0
+                                height: width * (9/16) // Assume 16:9 for now
+                                composition: ProjectSettings.composition
+                                currentTime: ProjectSettings.currentTime
+                            }
+
                             Rectangle {
                                 anchors.centerIn: parent
-                                width: parent ? parent.width * 0.7 : 0
-                                height: parent ? parent.width * 0.7 * (9/16) : 0
-                                color: Theme.input
+                                width: viewportRenderer.width
+                                height: viewportRenderer.height
+                                color: "transparent"
                                 border.color: Theme.muted
                                 border.width: 1
                                 radius: 2
+                                visible: ProjectSettings.composition.layers.length === 0
 
                                 ColumnLayout {
                                     anchors.centerIn: parent
@@ -411,6 +462,8 @@ ApplicationWindow {
                     PropertiesPanel {
                         anchors.fill: parent
                         anchors.margins: 4
+                        selectedLayer: timelineTab.selectedLayer
+                        selectedTrack: timelineTab.selectedTrack
                     }
                 }
 
@@ -438,7 +491,7 @@ ApplicationWindow {
                         Layout.fillHeight: true
                         currentIndex: bottomTabBar.currentIndex
 
-                        TimelineTab { }
+                        TimelineTab { id: timelineTab }
                         NodeEditorTab { }
                         GraphEditorTab { }
                         AudioEditorTab { }

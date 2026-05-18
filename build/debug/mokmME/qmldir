@@ -19,6 +19,10 @@ KeyframeDiamond 254.0 src/pages/components/fragments/KeyframeDiamond.qml
 PropertyRow 254.0 src/pages/components/fragments/PropertyRow.qml
 NumberSlider 254.0 src/pages/components/fragments/NumberSlider.qml
 ColorField 254.0 src/pages/components/fragments/ColorField.qml
+singleton TrackTypeConfig 254.0 src/pages/components/fragments/TrackTypeConfig.qml
+AddTrackDialog 254.0 src/pages/components/fragments/AddTrackDialog.qml
+TimelineLayerHeader 254.0 src/pages/components/timeline/TimelineLayerHeader.qml
+TimelineTrackHeader 254.0 src/pages/components/timeline/TimelineTrackHeader.qml
 PropertiesPanel 254.0 src/pages/components/PropertiesPanel.qml
 depends QtQuick
 

@@ -4,6 +4,7 @@
     <file alias="src/pages/components/qmldir">/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/qmldir</file>
     <file alias="src/pages/tabs/qmldir">/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/tabs/qmldir</file>
     <file alias="src/pages/components/fragments/qmldir">/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/fragments/qmldir</file>
+    <file alias="src/pages/components/timeline/qmldir">/home/david/Documents/projects/software/MOKM MotionEditor/build/debug/mokmME/src/pages/components/timeline/qmldir</file>
   </qresource>
 </RCC>
 
